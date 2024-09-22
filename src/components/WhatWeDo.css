@@ -1,0 +1,68 @@
+/* What we do CSS */
+/* AboutSection CSS */
+.about-section {
+    padding: 40px 20px;
+    background-color: #01040f;
+    color: #ffffff;
+    text-align: center; /* Center the heading */
+  }
+  
+  .centered-text {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #00ffff; /* Highlight color */
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: center; /* Center the boxes horizontally */
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Space between the boxes */
+    width: 100%;
+    max-width: 1200px; /* Optional: Restrict the total width of the container */
+    margin: 0 auto; /* Center the container within the section */
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column; /* Stack content vertically inside each box */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #192863;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; /* Set a width for the boxes */
+    box-shadow: 0 4px 8px rgba(23, 209, 222, 0.2);
+    color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  .left-box,
+  .right-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .left-box span,
+  .right-box span {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .box1-image,
+  .box2-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 120px; /* Reduce image size */
+    border-radius: 5px;
+  }
+  
+  /* Ensure boxes are horizontally aligned */
+  .box-container {
+    flex-direction: row; /* Align the boxes side by side */
+    flex-wrap: nowrap;  /* Prevent wrapping so that the boxes stay in one row */
+  }
+  
